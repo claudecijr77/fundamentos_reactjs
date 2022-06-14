@@ -1,0 +1,15 @@
+.wrapper {
+    max-width: 70rem;
+    /* "2rem" em cima e em baixo e nas laterais "auto" pra fazer com que fique centralizado */
+    margin: 2rem auto;
+    /* fazer com que se diminuir a tela pra menor que "70rem" o conteudo não fique colado nas laterais */
+    padding: 0 1rem;
+
+    display: grid;
+    /* fazer a primeira coluna ficar fixa e a segunda coluna com o tamanho que couber na tela (1fr tamanho flexivel) */
+    grid-template-columns: 256px 1fr;
+    /* espaçamento entre as colunas de 32px */
+    gap: 2rem;
+    /* vai fazer com que a sidebar e as div's com os post's fiquem sempre alinhados ao top */
+    align-items: flex-start;
+}
