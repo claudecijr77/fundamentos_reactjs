@@ -12,6 +12,11 @@
     --green-300: #00B37E;
 }
 
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
+
 /*Faz com que o padding, margin e o border do elemento nunca aumentem
 sua largura e altura e sim espremam o elemento para dentro */
 * {
