@@ -13,3 +13,16 @@
     /* vai fazer com que a sidebar e as div's com os post's fiquem sempre alinhados ao top */
     align-items: flex-start;
 }
+
+/* para utilizar em aparelhos como dispositivos moveis com resolução menor */
+
+@media (max-width: 768px) {
+    /* reduz o percentual da fonte */
+    html {
+        font-size: 87.5%;
+    }
+    /* vai apresentado apenas em uma coluna */
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
